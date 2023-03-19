@@ -1,0 +1,37 @@
+#poke-card-container {
+  box-shadow: -10px 10px 20px #cdd1ce;
+  padding: 2%;
+  object-fit: cover;
+  overflow: hidden;
+  width: 50%;
+  height: auto;
+  margin: 0 25%;
+}
+#poke-card-container > img {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.button {
+  font-size: 10px;
+  padding: 2%;
+  border: 0px;
+  border-radius: 20%;
+  background-color: #f55d6c;
+  height: 20%;
+  margin-top: 15%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#dropdown {
+  border: 2px solid #dedede;
+  color: #7e807d;
+  padding: 1%;
+}

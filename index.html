@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TXT Labs Apprenticeship</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+
+    <h1>TXT Labs Apprenticeship Project</h1>
+    <select id="dropdown" onchange="onDropdownSelect()"></select>
+    <div class="main-container">
+      <!-- Selection of pokemon -->
+        <button class="button" id="previous">
+          <span class="material-symbols-outlined">
+            arrow_back
+          </span>
+        </button>
+        <div id="poke-card-container">
+          <!-- pokemon name should be updated here -->
+          <h1 id="name">Bulbasaur</h1>
+
+          <!-- pokemon image should be updated here -->
+          <img
+            id="image"
+            src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/250px-0001Bulbasaur.png"
+            alt="pokemon image"
+          />
+
+          <!-- pokemon description should go here -->
+          <p id="desc">
+            Bulbasaur (Japanese: フシギダネ Fushigidane) is a dual-type
+            Grass/Poison Pokémon introduced in Generation I. It evolves into
+            Ivysaur starting at level 16, which evolves into Venusaur starting
+            at level 32.
+          </p>
+        </div>
+        <button class="button" id="next">
+          <span class="material-symbols-outlined">
+            arrow_forward
+          </span>
+        </button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
